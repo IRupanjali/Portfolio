@@ -1,4 +1,4 @@
-!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en" class="scroll-smooth">
   <head>
     <meta charset="UTF-8" />
@@ -33,18 +33,7 @@
       }
     </style>
   </head>
-  <body class="bg-white text-gray-800 transition-colors duration-300 dark:bg-gray-900 dark:text-white">
-    <!-- THEME TOGGLE -->
-    <div class="fixed top-5 right-5 z-50">
-      <button
-        id="theme-toggle"
-        aria-label="Toggle Dark/Light Theme"
-        class="bg-gray-800 text-white px-4 py-2 rounded shadow hover:bg-gray-700 focus:outline-none focus:ring-2 focus:ring-purple-500"
-      >
-        Toggle Theme
-      </button>
-    </div>
-
+  <body class="bg-white text-gray-800 transition-colors duration-300">
     <!-- NAVBAR -->
     <header
       class="bg-gradient-to-r from-pink-400 to-purple-500 text-white p-6 shadow-lg sticky top-0 z-40"
@@ -70,13 +59,13 @@
       aria-label="Introduction"
     >
       <div
-        class="container mx-auto max-w-3xl bg-white dark:bg-gray-800 rounded-xl shadow-lg p-10 text-center"
+        class="container mx-auto max-w-3xl bg-white rounded-xl shadow-lg p-10 text-center"
         data-aos="fade-up"
       >
-        <h2 class="text-5xl font-bold text-purple-800 dark:text-purple-400 mb-4">
+        <h2 class="text-5xl font-bold text-purple-800 mb-4">
           Hello, I'm Rupanjali Singh
         </h2>
-        <p class="text-xl mb-8 text-gray-700 dark:text-gray-300">
+        <p class="text-xl mb-8 text-gray-700">
           Data Analyst | Computational Biologist | Engineer 
         </p>
         <a
@@ -99,14 +88,14 @@
     >
       <div class="container mx-auto max-w-xl px-6 text-center" data-aos="fade-up">
         <h2 class="text-4xl font-bold text-pink-700 mb-6">Get In Touch</h2>
-        <p class="text-gray-900 dark:text-gray-100 mb-2 text-lg">
+        <p class="text-gray-900 mb-2 text-lg">
           Let's connect on my social platforms
         </p>
-        <p class="text-gray-700 dark:text-gray-300 mb-8 text-lg">
+        <p class="text-gray-700 mb-8 text-lg">
           📧
           <a
             href="mailto:rupanjalisingh10@gmail.com"
-            class="text-blue-600 underline hover:text-blue-800 dark:text-blue-400 dark:hover:text-blue-600"
+            class="text-blue-600 underline hover:text-blue-800"
             >rupanjalisingh10@gmail.com</a
           >
         </p>
@@ -153,15 +142,17 @@
     <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
     <script>
       AOS.init({ once: true });
-
-      const toggleBtn = document.getElementById("theme-toggle");
-      const htmlEl = document.documentElement;
-      toggleBtn.addEventListener("click", () => {
-        htmlEl.classList.toggle("dark");
-        document.body.classList.toggle("bg-gray-900");
-        document.body.classList.toggle("text-white");
-      });
     </script>
   </body>
 </html>
+
+        
+  
+    
+   
+           
+         
+            
+   
+     
 
